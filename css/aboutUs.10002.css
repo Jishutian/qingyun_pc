@@ -1,0 +1,117 @@
+
+/* 每一个模块内容 */
+.modular{
+    margin:0 auto;
+    text-align: center;
+    padding:80px 0;
+}
+.modular.bg{
+    background-color:#F4F6F9;
+}
+.modular .div_content{
+    width:1200px;
+    margin:0 auto;
+}
+.modular .s_title_ch{
+font-size:32px;
+font-weight:500;
+color:rgba(51,51,51,1);
+line-height:45px;
+margin-bottom:40px;
+text-align: left;
+}
+
+.modular .s_content{
+    font-size:24px;
+    font-weight:400;
+    color:rgba(53,53,53,1);
+    line-height:48px;
+    }
+/* 公司介绍 */
+#company_introduction{
+    background-image: url('../images/about_us.png');
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    color:#fff;
+}
+#company_introduction .s_title_ch,#company_introduction .s_content{
+    color:#fff;
+    text-align: left;
+}
+#company_introduction .s_content{
+    font-size:16px;
+    font-weight:400;
+    line-height:32px;
+}
+    /* 核心团队 */
+#core_team{
+    padding-bottom:45px;
+}
+#core_team .c_list{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom:20px;
+    text-align: left;
+}
+#core_team .core_img{
+    width:180px;
+    height:180px;
+    margin-right:22px;
+    flex-shrink:0;
+}
+#core_team .c_title{
+font-size:18px;
+font-weight:500;
+color:rgba(8,30,66,1);
+line-height:25px;
+}
+#core_team .c_tips{
+font-size:14px;
+font-weight:400;
+color:rgba(145,150,160,1);
+line-height:20px;
+margin:8px 0 11px;
+}
+#core_team .c_content{
+font-size:16px;
+font-weight:400;
+color:#081E42;
+line-height:24px;
+}
+/* 核心设备 */
+#equipment .content_box{
+    display: flex;
+    flex-wrap: wrap;
+}
+#equipment .content_box .equipment_item{
+    width:600px;
+    height:300px;
+    background-color: #F4F6F9;
+}
+div.equipment_item{
+    padding:60px 45px 0 95px;
+    text-align: left;
+}
+.equipment_item .e_s_title{
+    font-size:30px;
+    font-weight:400;
+    color:rgba(8,30,66,1);
+    line-height:42px;
+    margin-bottom:40px;
+}
+.equipment_item .e_s_ts{
+    font-size:18px;
+    font-weight:300;
+    color:rgba(8,30,66,1);
+    line-height:25px;
+    margin:2px 0 20px;
+}
+.equipment_item .e_s{
+    width:460px;
+    font-size:14px;
+    font-weight:300;
+    color:#081E42;
+    line-height:28px;
+}

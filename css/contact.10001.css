@@ -1,0 +1,43 @@
+/* 每一个模块内容 */
+.modular{
+    margin:0 auto;
+    text-align: center;
+    padding:80px 0;
+}
+.modular.bg{
+    background-color:#F4F6F9;
+}
+.modular .div_content{
+    width:1200px;
+    margin:0 auto;
+}
+.modular .s_title_ch{
+    font-size:32px;
+    font-weight:500;
+    color:rgba(51,51,51,1);
+    line-height:45px;
+    text-align: left;
+}
+
+.modular .s_content{
+    font-size:24px;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+    line-height:33px;
+    text-align: left;
+    margin-top: 32px;
+    }
+/* 公司介绍 */
+#company_introduction{
+    background-image: url('../images/about_us.png');
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    color:#fff;
+}
+#company_introduction .s_title_ch,#company_introduction .s_content{
+    color:#fff;
+    text-align: left;
+}
+
+

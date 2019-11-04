@@ -1,0 +1,202 @@
+/* banenr图 */
+.banner{
+    width:100%;
+    font-size:0;
+}
+.banner .banner_img{
+width:100%;
+}
+/* 每一个板块 */
+.modular{
+    font-size:0;
+    /* width:1200px; */
+    width:100%;
+    margin:0 auto;
+    padding:80px 0 50px;
+    text-align: center;
+}
+/* 业务方向板块 */
+#business_direction{
+    background-color: #F5F6F9;
+}
+.modular .s_title_ch{
+font-size:32px;
+font-weight:500;
+color:rgba(51,51,51,1);
+line-height:45px;
+}
+.modular .s_title_en{
+font-size:20px;
+font-weight:300;
+color:rgba(102,102,102,1);
+line-height:28px;
+}
+.modular .s_content{
+height:24px;
+font-size:24px;
+font-weight:500;
+color:rgba(51,51,51,1);
+line-height:24px;
+margin-top:16px;
+}
+.modular .business_direction_img{
+    display: flex;
+    width:1200px;
+    margin:30px auto 0;
+    justify-content: space-between;
+}
+.modular .business_direction_img .b_img{
+    width:80px;
+    height:80px;
+    background-position:top center;
+    background-size:contain;
+    background-repeat:no-repeat;
+    margin: 0 auto;
+}
+
+.modular .b_list{
+    width:282px;
+    height:333px;
+    background-color:#fff;
+    padding:32px 28px 0;
+}
+.b_list .b_s_title{
+    text-align: center;
+    margin:16px 0 ;
+font-size:18px;
+font-weight:500;
+color:rgba(51,51,51,1);
+line-height:25px;
+}
+.b_list .b_s_content{
+font-size:14px;
+font-weight:400;
+color:rgba(102,102,102,1);
+line-height:28px;
+text-align: left;
+}
+/* 测试技术 */
+#technics .b_list{
+    padding:0;
+    width:282px;
+box-shadow:0px 10px 20px 0px rgba(0,0,0,0.08);
+border-radius:4px;
+}
+.b_list .t_img{
+    width:100%;
+    height:157px;
+    background-position:top center;
+    background-size:contain;
+    background-repeat:no-repeat;
+    margin: 0 auto;
+}
+#technics .b_s_title{
+    padding:0 24px;
+    text-align: left;
+}
+#technics .b_s_content{
+    padding:0 24px;
+}
+/* 服务宗旨 */
+#service{
+    background-color:#35374A;
+    padding:80px 0 85px;
+}
+#service .s_title_ch{
+    color:#FFFFFF;
+}
+#service .s_title_en{
+    color:#FFFFFF;
+}
+.service_list{
+    margin-top:40px;
+    width:800px;
+    margin:40px auto 0;
+    display: flex;
+    align-items: center;
+}
+.service_list .ser_img{
+    width:80px;
+    height:80px;
+    margin-right:24px;
+}
+.ser_r_title{
+font-size:24px;
+font-weight:500;
+color:rgba(255,255,255,1);
+line-height:33px;
+margin:6px 0 8px;
+text-align: left;
+}
+.ser_r_content{
+font-size:20px;
+font-weight:400;
+color:rgba(255,255,255,1);
+line-height:28px;
+text-align: left;
+}
+/* 我们的优势 */
+#our .b_img{
+    width:220px;
+}
+#our .business_direction_img{
+    width:888px;
+    margin:40px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+#our .o_list{
+    width:220px;
+    height:206px;
+    text-align: center;
+}
+#our .o_img{
+    width:80px;
+    height:80px;;
+}
+#our .o_title{
+font-size:18px;
+font-weight:500;
+color:rgba(51,51,51,1);
+line-height:26px;
+margin: 12px 0 8px;
+}
+#our .o_content{
+height:60px;
+font-size:14px;
+font-weight:400;
+color:rgba(102,102,102,1);
+line-height:20px;
+}
+/* 合作单位 */
+#collaborators{
+    background-color: #F5F6F9;
+}
+#collaborators .business_direction_img{
+    display: flex;
+    justify-content: space-between;
+}
+#collaborators .c_list{
+    width:220px;
+    height:220px;
+    padding:49px 47px 0;
+    text-align: center;
+    background-color:#fff;
+}
+
+#collaborators .b_img{
+    width:80px;
+    height:80px;
+    margin-bottom:16px;
+}
+#collaborators .b_img.c_img{
+    width:124px;
+    height:46px;
+    margin:16px 0 32px;
+}
+#collaborators .c_name{
+font-size:18px;
+font-weight:500;
+color:rgba(51,51,51,1);
+line-height:26px;
+}
